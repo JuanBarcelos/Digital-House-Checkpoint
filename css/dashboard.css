@@ -30,7 +30,7 @@
     background: #3c36e1;
     width: 200px;
     height: 35px;
-    left: 1085px;
+    left: 1080px;
     top: 70px;
     font-family: 'Maven Pro';
     font-style: normal;
@@ -46,6 +46,7 @@
     margin-top: 70px;
     width: 100%;
     display: grid;
+    column-gap: 10px;
     row-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -167,4 +168,22 @@
     font-family: 'Maven Pro';
     font-style: normal;
     font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+    .cards{
+        margin-top: 200px;
+        width: 100%;
+        display: grid;
+        row-gap: 50px;
+        grid-template-columns: 1fr;
+    }
+    .btn-dev{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .btn-add{
+        left: 110px;
+        top: 190px;
+    }
 }

@@ -100,3 +100,10 @@ form{
 .active .modal-content{
     animation: modal .3s;
 }
+@media screen and (max-width: 900px) {
+    .modal-content{
+        width: 350px;
+        height: 650px;
+        text-align: center;
+    }
+}
