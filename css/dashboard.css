@@ -1,0 +1,170 @@
+.pesquisar{
+    width: 285px;
+    height: 35px;
+    background-color: #f7f7fa;
+    border-radius: 50px;
+    margin-top:20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.pesquisar img{
+    width: 30px;
+    height: 30px;
+    margin-left:10px;
+}
+.pesquisar input{
+    width: 285px;
+    height: 35px;
+    background-color: #f7f7fa;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-add{
+    position: absolute;
+    background: #3c36e1;
+    width: 200px;
+    height: 35px;
+    left: 1085px;
+    top: 70px;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    color: #F7F7FA;
+    cursor: pointer;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    margin-top: 70px;
+    width: 100%;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-dev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-dev{
+    width: 300px;
+    height: 400px;
+    background: rgba(249, 249, 249, 0.14);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfil img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px solid #3C36E1;
+    box-sizing: border-box;
+    border-radius: 87.5px;
+    margin-bottom:30px;
+}
+.perfil h1{
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.6413px;
+    line-height: 30px;
+    color: #F7F7FA;
+}
+.perfil p{
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F7F7FA;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background: #3C36E1;
+    margin:10px auto;
+    border-radius: 5px;
+}
+.rede-social{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rede-social img{
+    margin-right: 12px;
+}
+.btn-social{
+    width: 150px;
+    height: 45px;
+    background: #3c36e1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-social a{
+    text-decoration: none;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F7F7FA;
+}
+.btn-dev{
+    margin-top: 59px;
+    width: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.btn-dev .editar{
+    background: #3c36e1;
+    width: 125px;
+    height: 40px;
+    border-radius: 55px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editar a{
+    text-decoration: none;
+    color: #f7f7fa;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+}
+.btn-dev .deletar{
+    background: #f7f7fa;
+    width: 125px;
+    height: 40px;
+    border-radius: 55px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deletar a{
+    text-decoration: none;
+    color: #3C36E1;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+}

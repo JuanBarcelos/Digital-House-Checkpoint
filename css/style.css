@@ -11,15 +11,16 @@ html,body {
 }
 header {
     margin: 0 auto;
-    padding-top: 70px;
     width: 1200px;
     height: 50px;
-
     display: flex;
     justify-content: start;
     align-items: center;
 }
-.redes-social a{
+.redes-social{
+    padding-top: 25px;
+}
+.redes-social a{ 
     text-decoration: none;
     margin-right: 10px;
 }
@@ -28,6 +29,7 @@ header {
     width: 30px;
 }
 .logo{
+    padding-top: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -54,7 +56,7 @@ main{
     margin: 0 auto;
     width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -76,6 +78,7 @@ main{
 .descricao{
     width: 600px;
     margin-right: 20px;
+    z-index: 50;
 }
 .descricao p{
     font-family: 'Overpass';
@@ -100,7 +103,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.btn-home a{
+.btn-home a{ 
     text-decoration: none;
     font-family: 'Overpass';
     font-style: normal;
