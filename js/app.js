@@ -18,43 +18,7 @@ btnAdd.addEventListener('click', () => {
 });
 
 /*-----------cards-----------*/
-const perfilDev = [
-    {
-        nome: 'Nome do Dev',
-        avatar: "../img/perfil-dev.jpg",
-        cargo: 'Desenvolvedores Frontend',
-        github: "https://github.com/JuanBarcelos",
-        linkedin: "https://www.linkedin.com/feed/"
-    },
-    {
-        nome: 'Nome do Dev',
-        avatar: "../img/perfil-dev.jpg",
-        cargo: 'Desenvolvedores Frontend',
-        github: "https://github.com/JuanBarcelos",
-        linkedin: "https://www.linkedin.com/feed/"
-    },
-    {
-        nome: 'Nome do Dev',
-        avatar: "../img/perfil-dev.jpg",
-        cargo: 'Desenvolvedores Frontend',
-        github: "https://github.com/JuanBarcelos",
-        linkedin: "https://www.linkedin.com/feed/"
-    },
-    {
-        nome: 'Nome do Dev',
-        avatar: "../img/perfil-dev.jpg",
-        cargo: 'Desenvolvedores Frontend',
-        github: "https://github.com/JuanBarcelos",
-        linkedin: "https://www.linkedin.com/feed/"
-    },
-    {
-        nome: 'Nome do Dev',
-        avatar: "../img/perfil-dev.jpg",
-        cargo: 'Desenvolvedores Frontend',
-        github: "https://github.com/JuanBarcelos",
-        linkedin: "https://www.linkedin.com/feed/"
-    }
-]
+const perfilDev = [];
 
 
 
